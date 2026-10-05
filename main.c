@@ -1,11 +1,16 @@
-// HICOMMIT TEMPLATE FOR C
+/*tinh phi giao hang*/ 
 #include <stdio.h>
 
-int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
+void main() {
+  int a, b, s;
 
-    return 0;
+  printf("\nNhap khoan cach(km): ");
+  scanf("%d", &a);
+
+  printf("\nNhap gia tri don(dong): ");
+  scanf("%d", &b);
+
+  s=a.b
+  printf("\nTong phi: %d . %d = %d", a, b, s);
+  return 0;
 }
