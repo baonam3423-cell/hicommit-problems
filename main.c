@@ -14,6 +14,6 @@ int main() {
 	{
 		max = c;
 		}
-  printf(" %i\n", max);
+  printf("%i\n", max);
   return 0;
 }
