@@ -1,16 +1,28 @@
-/*tinh phi giao hang*/ 
-#include <stdio.h>
+ #include <stdio.h>
 
-void main() {
-  int a, b, s;
+int main() {
+  int khoangcach, giatridonhang;
+  int phigiaohang;
 
-  printf("\nNhap khoan cach(km): ");
-  scanf("%d", &a);
-
-  printf("\nNhap gia tri don(dong): ");
-  scanf("%d", &b);
-
-  s=a.b
-  printf("\nTong phi: %d . %d = %d", a, b, s);
+  scanf("%d %d", &khoangcach, &giatridonhang);
+  if (khoangcach <= 0 || giatridonhang < 0){
+    printf("INVALID");
+  }
+  else if (giatridonhang >= 500000 && khoangcach <= 15){
+    phigiaohang = 0;
+    printf ("%d", phigiaohang);
+  }
+  else if (khoangcach <= 5){
+    phigiaohang = 15000;
+    printf("%d", phigiaohang);
+  }
+  else if (khoangcach <= 15){
+    phigiaohang = 25000;
+    printf("%d", phigiaohang);
+  }
+  else {
+    phigiaohang = 40000;
+    printf("%d", phigiaohang);
+  }
   return 0;
 }
