@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-  int XEP_HANG=1;
-  switch(XEP_HANG)
+  int XEP_LOAI=10;
+  switch(XEP_LOAI)
   {
     case 1:
       printf("XEP_LOAI_XUAT_SAC"); break;
