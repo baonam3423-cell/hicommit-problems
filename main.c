@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  int w, h;
+  double w, h;
   float BMI;
 
   printf("\nNhap can nang: ");
@@ -13,9 +13,7 @@ int main() {
   
   if (18.5 > BMI )
     {
-      BMI = 18.5
-    }
-      printf("UNDERWEIGHI", BMI)
+      printf("UNDERWEIGHI", BMI)}
     
   
   return 0;
