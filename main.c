@@ -5,6 +5,9 @@ int main() {
   printf("\nNhap diem: ");
   scanf("%lf", &a);
   if(a >= 9.0)
-    printf("A")
+    printf("A");
+  else
+    printf("B");
+  
   return 0;
 }
