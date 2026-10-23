@@ -6,13 +6,13 @@ int main() {
   scanf("%d", &k);
 
   if(k <= 50 )
-    tien = 1LL * k * 1687;
+    tien = 1LL * k * 1678;
   
   else if(k <= 100 )
-    tien = 50LL * 1687
+    tien = 50LL * 1678
           + 1LL * (k-50) * 1734;
 
 
-  
+  printf("%li\n" tien);
   return 0;
 }
