@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main() {
-  int XEP_LOAI=1, 2, 3, 4, 5, 6, 7, 8, 9, 10;
-  switch(XEP_LOAI)
+  
+  int code;
+  scanf("%d", &code);
+  switch(code)
   {
     case 1:
       printf("XEP_LOAI_XUAT_SAC"); break;
