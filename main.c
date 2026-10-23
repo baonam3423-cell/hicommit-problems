@@ -6,16 +6,17 @@ int main() {
 
   printf("\nNhap can nang: ");
   scanf("%f", &w);
-
   printf("\nNhap chieu cao: ");
-  scanf("%f", &h);
+  scanf("%.1f", &h);
 
   printf("\n %f/(%.1f/100)^2 = %.1f", w,h, w/(h/100)^2)
   
-  if (BMI < 18.5 )
+  if (18.5 > BMI )
     {
-      printf("UNDERWEIGHI", BMI)
+      BMI = 18.5
     }
+      printf("UNDERWEIGHI", BMI)
+    
   
   return 0;
 }
