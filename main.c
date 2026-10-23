@@ -11,7 +11,7 @@ int main() {
     printf("\nB");
   if(6.5 > a > 6.9)
     printf("\nC+");
-  else 
+  else if 
     printf("\nC");
   return 0;
 }
