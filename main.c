@@ -12,7 +12,7 @@ int main() {
   
   else if(6.5 <= a && a <= 6.9)
     printf("C+");
-  else if(6.5 <= a && a <= 6.9)
+  else if(5.5 <= a && a <= 6.4)
     printf("C");
 
   else if(5.0 <= a && a<= 5.4)
