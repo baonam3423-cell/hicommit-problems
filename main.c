@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  int XEP_LOAI=10;
+  int XEP_LOAI=0;
   switch(XEP_LOAI)
   {
     case 1:
