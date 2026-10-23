@@ -20,7 +20,7 @@ int main() {
   else if(4.0 <= a <= 4.9)
     printf("D");
 
-  else(a < 4.0)
+  else if(a < 4.0)
     printf("F");
   
   return 0;
