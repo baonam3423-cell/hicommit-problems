@@ -7,7 +7,8 @@ int main() {
   if(dtb >= 9.0 && drl >= 90)
     printf("HOC_BONG_XUAT_SAC");
   else if(dtb >= 8.0 && dtb >= 9.0 && drl > 80) ||
-    (dtb >= 9.0 && drl >= 80);
+    (dtb >= 9.0 && drl >= 80)
+    printf("HOC_BONG_LOAI_GIOI");
 
   
   return 0;
