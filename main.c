@@ -4,14 +4,14 @@ int main() {
   int a;
   scanf("%lf", &a);
   if(10 > a >= 9.0)
-    printf("A");
+    printf("\nA");
   if(8.0 <= a <= 8.9 )
-    printf("B+");
+    printf("\nB+");
   else 
-    printf("B");
+    printf("\nB");
   if(6.5 > a > 6.9)
-    printf("C+");
+    printf("\nC+");
   else 
-    printf("C");
+    printf("\nC");
   return 0;
 }
