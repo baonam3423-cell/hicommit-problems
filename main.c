@@ -13,6 +13,6 @@ int main() {
           + 1LL * (k-50) * 1734;
 
 
-  printf("%ll\n" tien);
+  printf("%lld\n" tien);
   return 0;
 }
