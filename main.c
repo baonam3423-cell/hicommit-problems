@@ -2,8 +2,8 @@
 
 int main() {
   
-  double w, h, BMI;
-  
+  double w, h;
+  float BMI;
   scanf("%lf %if", &w,&h);
 
   BMI = w/((h/100)*(h/100));
