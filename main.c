@@ -37,7 +37,7 @@ int main() {
          + 100LL * 2014
          + 100LL * 2536
          + 1LL * 2834
-         + 1LL * (k-400) * 2976;
+         + 1LL * (k-400) * 2927;
 
   printf("%lld\n", tien);
   return 0;
