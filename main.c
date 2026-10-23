@@ -5,14 +5,17 @@ int main() {
   float BMI;
 
   printf("\nNhap can nang: ");
-  scanf("%d", &w);
+  scanf("%f", &w);
 
   printf("\nNhap chieu cao: ");
-  scanf("%d", &h);
+  scanf("%f", &h);
 
-  printf("\n %d/(%d./100)^2 = %.1f", w,h, w/(h/100)^2)
+  printf("\n %f/(%.1f/100)^2 = %.1f", w,h, w/(h/100)^2)
   
-
+  if (BMI < 18.5 )
+    {
+      printf("UNDERWEIGHI", BMI)
+    }
   
   return 0;
 }
