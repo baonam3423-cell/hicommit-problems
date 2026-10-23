@@ -24,8 +24,6 @@ int main() {
       printf("KHONG_HOP_LE"); break;
     case 10:
       printf("KHONG-HOP_LE"); break;
-    default:
-      printf("KHONG_HOP_LE");
   }
   return 0;
 }
