@@ -3,9 +3,9 @@
 int main() {
   double a;
   scanf("%lf", &a);
-  if(9.0 <= a <= 10)
+  if(9.0 <= a && a <= 10)
     printf("A");
-  else if(8.0 <= a <= 8.9 )
+  else if(8.0 <= a && a <= 8.9 )
     printf("B+");
   else if(7.0 <= a <= 7.9)
     printf("B");
