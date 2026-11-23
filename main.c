@@ -2,6 +2,7 @@
 
 int main() {
   int d, m, y;
+  imt c = 0;
   scanf("%d %d %d", &d, &m, &y);
 
 
@@ -19,11 +20,14 @@ int main() {
     if(d<=29 && d>=1)
     {
     printf("VALID");
+    c =1; 
     }
-  }
-  
-  else
+  else if((c==0) && (m == 2) && (d<=28 && d>=1))
   {
+  printf("VALID");
+  }
+  else
+  { 
     printf("INVALID");
   }
   return 0;
