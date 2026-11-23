@@ -19,8 +19,8 @@ int main() {
     printf("VALID");
   }
   return 0;
-  if(m=2 && y==400 
-      ||m=2 && y%4 != 0)
+  if ((m=2 && y%400 == 0) 
+      ||(m=2 && y%4 == 0 && y%100 != 0))
   {
     printf("VALID");
   }
