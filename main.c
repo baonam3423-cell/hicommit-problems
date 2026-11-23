@@ -11,7 +11,7 @@ int main() {
   }
   else if(min<4.0)
   {
-    printf("FAIL_SUBJECT");
+    printf("FAIL_SUBJECT", gpa, min, abs);
   }
 
   if(gpa>=8.0 && min>=7.0)
