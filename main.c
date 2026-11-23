@@ -16,6 +16,6 @@ int main() {
     t = 1*15000 + 4*13000 + (d-5)*11;
   }
 
-  printf("%d", t);
+  printf("%lf", t);
   return 0;
 }
