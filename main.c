@@ -5,7 +5,7 @@ int main() {
   double t;
   if(d <= 1)
   {
-    t= d * 7500 ;
+    t= d * 15000 ;
   }
   else if(1 < d <= 5)
   {
@@ -16,6 +16,6 @@ int main() {
     t = 1*15000 + 4*13000 + (d-5)*11;
   }
 
-  printf("%lf", t);
+  printf("%0.lf", t);
   return 0;
 }
