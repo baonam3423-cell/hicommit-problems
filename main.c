@@ -5,7 +5,11 @@ int main() {
   int c = 0;
   scanf("%d %d %d", &d, &m, &y);
 
-
+  if(y<=0)
+  {
+    printf("INVALID");
+    return 0;
+  } 
   if((1<=d && d<=31) && (m == 1 || m == 3 || m == 5 || m== 7|| m == 8|| m == 10|| m ==12))
   {
     printf("VALID");
