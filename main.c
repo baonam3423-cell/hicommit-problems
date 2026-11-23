@@ -16,15 +16,15 @@ int main() {
 
   if(gpa>=8.0 && min>=7.0)
   {
-    printf("EXCELLENT");
+    printf("EXCELLENT", gpa, min, abs);
   }
   else if(gpa>=6.5 && min>=5.0)
   {
-    printf("GOOD");
+    printf("GOOD", gpa, min, abs);
   }
   else if(gpa>=5.0 && min>=4.0)
   {
-    printf("PASS");
+    printf("PASS", gpa, min, abs);
   }
   else{
     printf("FAIL");
