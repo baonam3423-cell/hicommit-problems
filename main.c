@@ -13,8 +13,8 @@ int main() {
     printf("VALID");
   }
     return 0;
-  if(1<=d<=5 && !=2 
-     || 7<=d<=12 && ==2 )
+  if(1<=d<=5 && d!=2 
+     || 7<=d<=12 && d==2 )
   {
     printf("VALID");
   }
