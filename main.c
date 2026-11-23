@@ -20,7 +20,7 @@ int main() {
   }
   return 0;
   if(m=2 && y==400 
-      ||m=2 && y%4 && y % 4 != 0)
+      ||m=2 && y%4 != 0)
   {
     printf("VALID");
   }
