@@ -14,8 +14,13 @@ int main() {
   {
     printf("VALID");
   }
-  
-  
+  else if(m==2 && y%400==0 || y%4==0 && y%100!=0)
+  {
+    if(d<=29 && d>=1)
+    {
+    printf("VALID");
+    }
+  }
   
   else
   {
