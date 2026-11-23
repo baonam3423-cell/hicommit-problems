@@ -9,7 +9,7 @@ int main() {
   {
     printf("FAIL_ATTENDANCE", gpa, min, abs);
   }
-  else if(min<4.0)
+  else(min<4.0)
   {
     printf("FAIL_SUBJECT", gpa, min, abs);
   }
