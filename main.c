@@ -8,6 +8,10 @@ int main() {
   {
     printf("VALID");
   }
+  else if(1<=d<=(m,d))
+  {
+    printf("VALID");
+  }
 
 
 
