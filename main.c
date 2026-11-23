@@ -1,11 +1,19 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
+  float gpa, min;
+  int abs;
+  scanf("%f, %f, %d", &gpa, min, abs);
 
-    return 0;
+  if(abs>3)
+  {
+    printf("FAIL_ATTENDANCE", gpa, min, abs);
+  }
+  else if(min<4.0)
+  {
+    printf("FAIL_SUBJECT");
+  }
+
+  
+  return 0;
 }
