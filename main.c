@@ -8,10 +8,12 @@ int main() {
   if(abs>=3)
   {
     printf("FAIL_ATTENDANCE");
+    return 0;
   }
   else if(min<4.0)
   {
     printf("FAIL_SUBJECT");
+        return 0;
   }
   if(gpa>=8.0 && min>=7.0)
   {
@@ -23,11 +25,9 @@ int main() {
   }
   else if(gpa>=5.0 && min>=4.0)
   {
-    printf("PASS");
+    printf("PASS");    return 0;
   }
   else{
-    printf("FAIL");
+    printf("FAIL");   
   }
-  
-  return 0;
 }
