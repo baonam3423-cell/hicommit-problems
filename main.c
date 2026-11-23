@@ -5,7 +5,7 @@ int main() {
   double t;
   if(d <= 1)
   {
-    t= d * 15000 ;
+    t= d * 7500 ;
   }
   else if(1 < d <= 5)
   {
