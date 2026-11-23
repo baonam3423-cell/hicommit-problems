@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 int main() {
-  int t;
-  float d;
-  printf("%d");
-  if(d<=1)
+  double d;
+  double t;
+  if(d <= 1)
   {
-    t= d * 15000
+    t= d * 15000 ;
   }
-  else (1<d<=5)
+  else (1 < d <= 5)
   {
-    t = 1 * 15000 + (d-1) * 13000
+    t = 1 * 15000 + (d-1) * 13000 ; 
   }
   
 
-  
+  printf("%d", t);
   return 0;
 }
