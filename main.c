@@ -12,11 +12,13 @@ int main() {
   {
     printf("VALID");
   }
-
-
-
-
-
   
+
+
+
+  else
+  {
+    printf("INVALID")
+  }
   return 0;
 }
